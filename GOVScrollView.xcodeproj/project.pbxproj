@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		314423811E0B672200695F0C /* GOVPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 314423801E0B672200695F0C /* GOVPageControl.m */; };
+		314423831E0BC3F000695F0C /* mr.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 314423821E0BC3F000695F0C /* mr.jpeg */; };
+		3145E5A51E0A1B7D007D48A0 /* dlrb.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3145E5A01E0A1B7D007D48A0 /* dlrb.jpeg */; };
+		3145E5A61E0A1B7D007D48A0 /* kkx.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3145E5A11E0A1B7D007D48A0 /* kkx.jpeg */; };
+		3145E5A71E0A1B7D007D48A0 /* ct.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3145E5A21E0A1B7D007D48A0 /* ct.jpeg */; };
+		3145E5A81E0A1B7D007D48A0 /* kobe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3145E5A31E0A1B7D007D48A0 /* kobe.jpeg */; };
+		314DF0DA1E10AB0500F89026 /* WSLScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 314DF0D91E10AB0500F89026 /* WSLScrollView.m */; };
+		315201B61E0936BF0098E357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 315201B51E0936BF0098E357 /* main.m */; };
+		315201B91E0936BF0098E357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 315201B81E0936BF0098E357 /* AppDelegate.m */; };
+		315201BC1E0936BF0098E357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 315201BB1E0936BF0098E357 /* ViewController.m */; };
+		315201BF1E0936BF0098E357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315201BD1E0936BF0098E357 /* Main.storyboard */; };
+		315201C11E0936BF0098E357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315201C01E0936BF0098E357 /* Assets.xcassets */; };
+		315201C41E0936BF0098E357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315201C21E0936BF0098E357 /* LaunchScreen.storyboard */; };
+		315201CF1E0936BF0098E357 /* GOVScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 315201CE1E0936BF0098E357 /* GOVScrollViewTests.m */; };
+		315201DA1E0936BF0098E357 /* GOVScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 315201D91E0936BF0098E357 /* GOVScrollViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		315201CB1E0936BF0098E357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315201A91E0936BF0098E357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315201B01E0936BF0098E357;
+			remoteInfo = GOVScrollView;
+		};
+		315201D61E0936BF0098E357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 315201A91E0936BF0098E357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 315201B01E0936BF0098E357;
+			remoteInfo = GOVScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3144237F1E0B672200695F0C /* GOVPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOVPageControl.h; sourceTree = "<group>"; };
+		314423801E0B672200695F0C /* GOVPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOVPageControl.m; sourceTree = "<group>"; };
+		314423821E0BC3F000695F0C /* mr.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mr.jpeg; sourceTree = "<group>"; };
+		3145E5A01E0A1B7D007D48A0 /* dlrb.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dlrb.jpeg; sourceTree = "<group>"; };
+		3145E5A11E0A1B7D007D48A0 /* kkx.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kkx.jpeg; sourceTree = "<group>"; };
+		3145E5A21E0A1B7D007D48A0 /* ct.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ct.jpeg; sourceTree = "<group>"; };
+		3145E5A31E0A1B7D007D48A0 /* kobe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kobe.jpeg; sourceTree = "<group>"; };
+		314DF0D81E10AB0500F89026 /* WSLScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLScrollView.h; sourceTree = "<group>"; };
+		314DF0D91E10AB0500F89026 /* WSLScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLScrollView.m; sourceTree = "<group>"; };
+		315201B11E0936BF0098E357 /* GOVScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOVScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		315201B51E0936BF0098E357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		315201B71E0936BF0098E357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		315201B81E0936BF0098E357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		315201BA1E0936BF0098E357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		315201BB1E0936BF0098E357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		315201BE1E0936BF0098E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		315201C01E0936BF0098E357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		315201C31E0936BF0098E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		315201C51E0936BF0098E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315201CA1E0936BF0098E357 /* GOVScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOVScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315201CE1E0936BF0098E357 /* GOVScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOVScrollViewTests.m; sourceTree = "<group>"; };
+		315201D01E0936BF0098E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315201D51E0936BF0098E357 /* GOVScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GOVScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315201D91E0936BF0098E357 /* GOVScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOVScrollViewUITests.m; sourceTree = "<group>"; };
+		315201DB1E0936BF0098E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315201AE1E0936BF0098E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201C71E0936BF0098E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201D21E0936BF0098E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3145E5951E0A1952007D48A0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3145E5A01E0A1B7D007D48A0 /* dlrb.jpeg */,
+				3145E5A11E0A1B7D007D48A0 /* kkx.jpeg */,
+				3145E5A21E0A1B7D007D48A0 /* ct.jpeg */,
+				3145E5A31E0A1B7D007D48A0 /* kobe.jpeg */,
+				314423821E0BC3F000695F0C /* mr.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		315201A81E0936BF0098E357 = {
+			isa = PBXGroup;
+			children = (
+				315201B31E0936BF0098E357 /* GOVScrollView */,
+				315201CD1E0936BF0098E357 /* GOVScrollViewTests */,
+				315201D81E0936BF0098E357 /* GOVScrollViewUITests */,
+				315201B21E0936BF0098E357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315201B21E0936BF0098E357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315201B11E0936BF0098E357 /* GOVScrollView.app */,
+				315201CA1E0936BF0098E357 /* GOVScrollViewTests.xctest */,
+				315201D51E0936BF0098E357 /* GOVScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315201B31E0936BF0098E357 /* GOVScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				3145E5951E0A1952007D48A0 /* images */,
+				315201B71E0936BF0098E357 /* AppDelegate.h */,
+				315201B81E0936BF0098E357 /* AppDelegate.m */,
+				315201BA1E0936BF0098E357 /* ViewController.h */,
+				315201BB1E0936BF0098E357 /* ViewController.m */,
+				3144237F1E0B672200695F0C /* GOVPageControl.h */,
+				314423801E0B672200695F0C /* GOVPageControl.m */,
+				314DF0D81E10AB0500F89026 /* WSLScrollView.h */,
+				314DF0D91E10AB0500F89026 /* WSLScrollView.m */,
+				315201BD1E0936BF0098E357 /* Main.storyboard */,
+				315201C01E0936BF0098E357 /* Assets.xcassets */,
+				315201C21E0936BF0098E357 /* LaunchScreen.storyboard */,
+				315201C51E0936BF0098E357 /* Info.plist */,
+				315201B41E0936BF0098E357 /* Supporting Files */,
+			);
+			path = GOVScrollView;
+			sourceTree = "<group>";
+		};
+		315201B41E0936BF0098E357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				315201B51E0936BF0098E357 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		315201CD1E0936BF0098E357 /* GOVScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				315201CE1E0936BF0098E357 /* GOVScrollViewTests.m */,
+				315201D01E0936BF0098E357 /* Info.plist */,
+			);
+			path = GOVScrollViewTests;
+			sourceTree = "<group>";
+		};
+		315201D81E0936BF0098E357 /* GOVScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				315201D91E0936BF0098E357 /* GOVScrollViewUITests.m */,
+				315201DB1E0936BF0098E357 /* Info.plist */,
+			);
+			path = GOVScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315201B01E0936BF0098E357 /* GOVScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315201DE1E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollView" */;
+			buildPhases = (
+				315201AD1E0936BF0098E357 /* Sources */,
+				315201AE1E0936BF0098E357 /* Frameworks */,
+				315201AF1E0936BF0098E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GOVScrollView;
+			productName = GOVScrollView;
+			productReference = 315201B11E0936BF0098E357 /* GOVScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		315201C91E0936BF0098E357 /* GOVScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315201E11E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollViewTests" */;
+			buildPhases = (
+				315201C61E0936BF0098E357 /* Sources */,
+				315201C71E0936BF0098E357 /* Frameworks */,
+				315201C81E0936BF0098E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315201CC1E0936BF0098E357 /* PBXTargetDependency */,
+			);
+			name = GOVScrollViewTests;
+			productName = GOVScrollViewTests;
+			productReference = 315201CA1E0936BF0098E357 /* GOVScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		315201D41E0936BF0098E357 /* GOVScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315201E41E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollViewUITests" */;
+			buildPhases = (
+				315201D11E0936BF0098E357 /* Sources */,
+				315201D21E0936BF0098E357 /* Frameworks */,
+				315201D31E0936BF0098E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				315201D71E0936BF0098E357 /* PBXTargetDependency */,
+			);
+			name = GOVScrollViewUITests;
+			productName = GOVScrollViewUITests;
+			productReference = 315201D51E0936BF0098E357 /* GOVScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315201A91E0936BF0098E357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "王双龙";
+				TargetAttributes = {
+					315201B01E0936BF0098E357 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					315201C91E0936BF0098E357 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 315201B01E0936BF0098E357;
+					};
+					315201D41E0936BF0098E357 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 315201B01E0936BF0098E357;
+					};
+				};
+			};
+			buildConfigurationList = 315201AC1E0936BF0098E357 /* Build configuration list for PBXProject "GOVScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 315201A81E0936BF0098E357;
+			productRefGroup = 315201B21E0936BF0098E357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315201B01E0936BF0098E357 /* GOVScrollView */,
+				315201C91E0936BF0098E357 /* GOVScrollViewTests */,
+				315201D41E0936BF0098E357 /* GOVScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		315201AF1E0936BF0098E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3145E5A71E0A1B7D007D48A0 /* ct.jpeg in Resources */,
+				3145E5A61E0A1B7D007D48A0 /* kkx.jpeg in Resources */,
+				314423831E0BC3F000695F0C /* mr.jpeg in Resources */,
+				315201C41E0936BF0098E357 /* LaunchScreen.storyboard in Resources */,
+				3145E5A51E0A1B7D007D48A0 /* dlrb.jpeg in Resources */,
+				315201C11E0936BF0098E357 /* Assets.xcassets in Resources */,
+				315201BF1E0936BF0098E357 /* Main.storyboard in Resources */,
+				3145E5A81E0A1B7D007D48A0 /* kobe.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201C81E0936BF0098E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201D31E0936BF0098E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315201AD1E0936BF0098E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315201BC1E0936BF0098E357 /* ViewController.m in Sources */,
+				314423811E0B672200695F0C /* GOVPageControl.m in Sources */,
+				315201B91E0936BF0098E357 /* AppDelegate.m in Sources */,
+				315201B61E0936BF0098E357 /* main.m in Sources */,
+				314DF0DA1E10AB0500F89026 /* WSLScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201C61E0936BF0098E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315201CF1E0936BF0098E357 /* GOVScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		315201D11E0936BF0098E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315201DA1E0936BF0098E357 /* GOVScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		315201CC1E0936BF0098E357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315201B01E0936BF0098E357 /* GOVScrollView */;
+			targetProxy = 315201CB1E0936BF0098E357 /* PBXContainerItemProxy */;
+		};
+		315201D71E0936BF0098E357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 315201B01E0936BF0098E357 /* GOVScrollView */;
+			targetProxy = 315201D61E0936BF0098E357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		315201BD1E0936BF0098E357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315201BE1E0936BF0098E357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		315201C21E0936BF0098E357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				315201C31E0936BF0098E357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		315201DC1E0936BF0098E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		315201DD1E0936BF0098E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		315201DF1E0936BF0098E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GOVScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		315201E01E0936BF0098E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GOVScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		315201E21E0936BF0098E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GOVScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOVScrollView.app/GOVScrollView";
+			};
+			name = Debug;
+		};
+		315201E31E0936BF0098E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GOVScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOVScrollView.app/GOVScrollView";
+			};
+			name = Release;
+		};
+		315201E51E0936BF0098E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GOVScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOVScrollView;
+			};
+			name = Debug;
+		};
+		315201E61E0936BF0098E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GOVScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinaDaily.GOVScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GOVScrollView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315201AC1E0936BF0098E357 /* Build configuration list for PBXProject "GOVScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315201DC1E0936BF0098E357 /* Debug */,
+				315201DD1E0936BF0098E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315201DE1E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315201DF1E0936BF0098E357 /* Debug */,
+				315201E01E0936BF0098E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315201E11E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315201E21E0936BF0098E357 /* Debug */,
+				315201E31E0936BF0098E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315201E41E0936BF0098E357 /* Build configuration list for PBXNativeTarget "GOVScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315201E51E0936BF0098E357 /* Debug */,
+				315201E61E0936BF0098E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315201A91E0936BF0098E357 /* Project object */;
+}
